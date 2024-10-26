@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="header">
         <Link to="/">
-        <h1>PortFolio</h1>
+        <h1>Vikrant Ahiwale</h1>
         </Link>
         <ul className={Click ? "nav-menu active":
             "nav-menu"
