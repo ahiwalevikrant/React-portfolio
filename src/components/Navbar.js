@@ -6,8 +6,17 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
     const [Click,SetClick]= useState(false);
     const handleClick = () => SetClick(!Click);
+    const [color,SetColor] = useState(false);
+    const changeColor = () =>{
+        if(window.screenY >= 100){
+            SetColor(true);
+        }else{
+            SetColor(false);
+        }
+    };
+    window.addEventListener("scroll",changeColor);
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
         <h1>Vikrant Ahiwale</h1>
         </Link>
