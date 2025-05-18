@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => SetClick(!Click);
   const [color, SetColor] = useState(false);
   const changeColor = () => {
-    if (window.screenY >= 100) {
+    if (window.scrollY >= 100) {
       SetColor(true);
     } else {
       SetColor(false);
