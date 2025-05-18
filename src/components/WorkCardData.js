@@ -1,23 +1,47 @@
-import pro1 from "../assets/project1.jpg";
-import pro2 from "../assets/project2.jpg";
-import pro3 from "../assets/project3.jpg";
 
 const ProjectCardData = [
   {
-    imgsrc: pro1,
-    title: "Commission Dashboard Reconciliation Matching Platform ",
-    text: " Redesigned a platform to match, ignore, or delete records from various sources such as sales and carrier data Implemented API for data filtering, file uploads, job-based processes, and history tracking Deployed the platform to pre-production and production environments, with ongoing operational support.",
-  },
-  {
-    imgsrc: pro2,
-    title: "Medicare BA Tech Personalized Health Insurance Solution ",
-    text: "Developed a microservice architecture to deliver personalized health insurance recommendations Enabled clients to access optimized plans with premium tax credits and subsidies Ensured affordability and comprehensive coverage for users while streamlining enrollment processes",
-  },
-  {
-    imgsrc: pro3,
-    title: "BPO Dashboard – Analytics for BPO Centers",
-    text: "Developed an analytics dashboard to track call data from multiple BPO centers Integrated Angular Material with Excel import/export features for smooth backend and frontend operations Transitioned data to Apache Superset for testing, project paused due to BPO center closures",
-  },
+    title: "Java-NLP – Natural Language Processing Toolkit",
+    text: "Developed a Java-based NLP engine using Stanford NLP for tokenization, lemmatization, POS tagging, named entity recognition, and sentiment analysis. Designed a modular structure for easy integration into enterprise Java applications.",
+    view: null,
+    source: "https://github.com/ahiwalevikrant/Java-NLP",
+    },
+    {
+    title: "Sign-Up/Login API – Spring Boot with JWT Authentication",
+    text: "Built a secure REST API for user sign-up and login, implementing JWT authentication and role-based access control. Integrated password hashing, input validation, and refresh token mechanisms to enhance security.",
+    view: null,
+    source: "https://github.com/ahiwalevikrant/Sign-up-Login-API-Springboot-and-JWT-authentication",
+    },
+    {
+    title: "Netflix Clone – Angular + IMDb API Integration",
+    text: "Created a responsive Netflix-like frontend using Angular 16, consuming IMDb API to display real-time movie data. Implemented Google Authentication for secure login and Firebase for hosting.",
+    view: "https://netflix-clone-angular-seven.vercel.app/",
+    source: "https://github.com/ahiwalevikrant/Netflix-Clone--Angular",
+    },
+    {
+    title: "Spotify Clone – Angular Music Player UI",
+    text: "Developed a Spotify-inspired UI using Angular, featuring dynamic song cards and authentication flows. Focused on UI/UX responsiveness and component reusability.",
+    view: null,
+    source: "https://github.com/ahiwalevikrant/Spotify-clone-login-song-card",
+    },
+    {
+    title: "NER Spring Boot – Named Entity Recognition API",
+    text: "Implemented a Spring Boot microservice for Named Entity Recognition using Stanford NLP. Exposed REST endpoints to extract named entities from input text and return structured results.",
+    view: null,
+    source: "https://github.com/ahiwalevikrant/NER-Spring-Boot",
+    },
+    {
+    title: "Speech Recognition – Audio Transcription in Python",
+    text: "Built a Python script using the SpeechRecognition library to transcribe audio files using Google Web Speech API. Processed WAV files and displayed transcripts with basic sentiment analysis.",
+    view: null,
+    source: "https://github.com/ahiwalevikrant/SpeechRecognition-python",
+    },
+    {
+    title: "Ollama SpringBoot – GenAI API Scaffold",
+    text: "Developed a Spring Boot application to expose a REST endpoint (/api/query) for receiving and responding to natural language questions. Designed the architecture to easily integrate with future LLMs and GenAI pipelines. GitHub: github.com/your-username/ollama-deepakc",
+    view: null,
+    source: "https://github.com/ahiwalevikrant/ollama-Spring",
+    },
 ];
 
 export default ProjectCardData;
